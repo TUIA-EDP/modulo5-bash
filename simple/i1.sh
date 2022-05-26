@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LIMIT=10
+LIMIT=$1
 for (( i=1; i<$LIMIT; i = i + 2 ))
 do
 	echo $i
